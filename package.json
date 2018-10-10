@@ -6,9 +6,11 @@
     "react",
     "admin"
   ],
-  "maintainers": [
-    "raygu0101@gmail.com"
-  ],
+  "author": "raygu0101@gmail.com",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:YunhanJS/react-admin.git"
+  },
   "dependencies": {
     "tslint": "^5.11.0",
     "tslint-config-prettier": "^1.14.0",
