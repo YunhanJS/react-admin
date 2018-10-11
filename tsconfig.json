@@ -1,13 +1,13 @@
 {
   "compilerOptions": {
+    "strictNullChecks": true,
     "target": "es6",
-    "module": "esnext",
-    "allowJs": true,
-    "allowSyntheticDefaultImports": true,
-    "baseUrl": "src",
-    "jsx": "react",
-    "experimentalDecorators": true,
     "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "jsx": "preserve",
+    "experimentalDecorators": true,
+    "noUnusedParameters": true,
+    "noUnusedLocals": true,
     "lib": [
       "dom",
       "es5",
@@ -17,6 +17,9 @@
       "es2015.promise"
     ]
   },
+  "files": [
+    "types/css-module.d.ts"
+  ],
   "include": [
     "src"
   ],
